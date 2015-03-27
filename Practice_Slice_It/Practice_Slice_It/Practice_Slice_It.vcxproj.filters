@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="System">
+      <UniqueIdentifier>{4b753cd8-2584-4775-bd88-91b192d25075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{42904b9f-3948-4c9a-ad99-3557a0a92f2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Object">
+      <UniqueIdentifier>{d4fe448d-77fc-4234-80b3-37c93b7426d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Scene\Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SceneGame.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SceneGameCompleteClipping.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SceneMain.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Object.cpp">
+      <Filter>Scene\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\ObjectShape.cpp">
+      <Filter>Scene\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="System\ConsoleSystem.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\DrawSystem.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\GameSystem.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\main.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SceneManager.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\UtillFunc.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SceneGameEasyVer.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scene\Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SceneGame.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SceneGameCompleteClipping.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SceneMain.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Object.h">
+      <Filter>Scene\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\ObjectShape.h">
+      <Filter>Scene\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="System\ConsoleSystem.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\DrawSystem.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\GameSystem.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SceneManager.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\UtillFunc.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SceneGameEasyVer.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
